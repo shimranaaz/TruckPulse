@@ -26,9 +26,9 @@ const timeline = [
 ];
 
 const leaders = [
-  { name: "Vikram Mehta", role: "CEO & Co-Founder", initial: "VM" },
-  { name: "Sanya Reddy", role: "Head of Operations", initial: "SR" },
-  { name: "Arjun Nair", role: "CTO & Co-Founder", initial: "AN" },
+  { name: "MUHAMMED IRFAN", role: "CEO & Co-Founder", initial: "VM" },
+  { name: "MUHAMMED IMRAN", role: "Head of Operations", initial: "SR" },
+  { name: "MUHAMMED SALMAN", role: "CTO & Co-Founder", initial: "AN" },
 ];
 
 const compliance = [
