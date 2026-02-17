@@ -26,9 +26,9 @@ const timeline = [
 ];
 
 const leaders = [
-  { name: "MUHAMMED IRFAN", role: "CEO & Co-Founder", initial: "VM" },
-  { name: "MUHAMMED IMRAN", role: "Head of Operations", initial: "SR" },
-  { name: "MUHAMMED SALMAN", role: "CTO & Co-Founder", initial: "AN" },
+  { name: "MUHAMMED IRFAN", role: "CEO & Co-Founder", initial: "MI" },
+  { name: "MUHAMMED IMRAN", role: "Head of Operations", initial: "MI" },
+  { name: "MUHAMMED SALMAN", role: "CTO & Co-Founder", initial: "MS" },
 ];
 
 const compliance = [
