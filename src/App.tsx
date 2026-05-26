@@ -14,6 +14,7 @@ import ServiceBooking from "./pages/ServiceBooking";
 import ServiceTransportation from "./pages/ServiceTransportation";
 import ServiceFleet from "./pages/ServiceFleet";
 import TermsOfService from "./pages/TermsOfService";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 const queryClient = new QueryClient();
 
@@ -34,6 +35,7 @@ const App = () => (
             <Route path="/services/fleet" element={<ServiceFleet />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/terms" element={<TermsOfService />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>

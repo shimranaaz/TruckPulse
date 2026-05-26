@@ -82,14 +82,20 @@ export default function Navbar() {
           )}
         </div>
 
-        <div className="hidden items-center gap-3 md:flex">
-          <Button variant="ghost" size="sm" className="font-semibold">
-            Login
-          </Button>
-          <Button size="sm" className="gradient-primary font-semibold text-primary-foreground shadow-blue">
-            Sign Up
-          </Button>
-        </div>
+    <div className="hidden md:flex items-center gap-3">
+  <Button variant="ghost" size="sm" className="font-semibold" asChild>
+    <a href="https://truck-pulse-partners.base44.app" target="_blank" rel="noopener noreferrer">
+      Login
+    </a>
+  </Button>
+  <Button size="sm" className="gradient-primary font-semibold text-primary-foreground" asChild>
+    <a href="https://truck-pulse-partners.base44.app" target="_blank" rel="noopener noreferrer">
+      Sign Up
+    </a>
+  </Button>
+</div>
+
+
 
         {/* Mobile Toggle */}
         <button className="md:hidden" onClick={() => setMobileOpen(!mobileOpen)}>
