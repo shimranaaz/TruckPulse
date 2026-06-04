@@ -113,16 +113,19 @@ export default function HomePage() {
                 Watch how easy it is to book a truck and manage your logistics with TruckPulse.
               </p>
             </div>
-            <div className="overflow-hidden rounded-2xl border border-border shadow-card mx-auto" style={{ height: "220px" }}>
-              <video
-                src="/truckpulse.mp4"
-                controls
-                className="w-full h-full object-cover"
-                poster="/truckpulse-logo.jpeg"
-              >
-                Your browser does not support the video tag.
-              </video>
-            </div>
+          <div className="w-full overflow-hidden" style={{ height: "70vh" }}>
+  <video
+    src="/truckpulse.mp4"
+    controls
+    autoPlay
+    loop
+    playsInline
+    className="w-full h-full object-contain"
+    poster="/truckpulse-logo.jpeg"
+  >
+    Your browser does not support the video tag.
+  </video>
+</div>
           </motion.div>
         </div>
       </section>
